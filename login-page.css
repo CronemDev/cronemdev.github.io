@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+.textHits{
+    display: none;
+}
+
+.square{
+    display: none;
+}
+
+
+
+
+#messageDisplay{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 1.25rem;
+}
+
+
+
+.nav-bar{
+display: none;
+  }
+
+  
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 100px;
+        
+    }
+ 
+body{
+    position: fixed;
+}
+
+    
+
+    .feature{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px auto;
+        gap: 20px;
+        margin-top: 5vh;
+        
+        
+    }
+    .way img{
+        width: 30px;
+
+    }
+    .way{
+        width: 250px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 150px;
+    cursor: pointer;
+    gap: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    
+    
+
+        
+        
+    }
+    .enter{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .way:hover{
+        background-color: rgba(255, 255, 255, 0.897);
+        
+    }
+
+    .gif-music img{
+        width: 200px;
+    }
+    .gif-music{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            margin-top: 3vh;
+
+    }
+    .title{
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    body{
+        background-color: black;
+    }
+
+}
+@media screen and (max-width: 480px) {
+  /* CSS para celulares pequenos */
+}
