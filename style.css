@@ -89,6 +89,9 @@
   margin: 0 auto;      
 }
 
+
+
+
 .search-bar input {
   flex: 1;
   border: none;
@@ -369,6 +372,8 @@ align-items: center;
 
 
 
+
+
 }
 
 /*For Mobile Phone/*/
@@ -376,6 +381,36 @@ align-items: center;
 
   #messageDisplay{
     display: none;
+  }
+
+  .p-title{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+  .singers{
+      display: flex;         /* coloca os elementos lado a lado */
+  gap: 10px;             /* espaço entre as imagens */
+  justify-content: center; /* centraliza as imagens na linha */
+  align-items: center;   /* alinha verticalmente */
+  }
+
+  .sing img{
+    width: 100px;
+  border-radius: 100px;
+  }
+
+  .sing{
+    margin-top: 30px;
+  }
+  .sing p{
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(203, 203, 203);
+    font-weight: 500;
+
   }
   
 
@@ -493,7 +528,7 @@ align-items: center;
     font-size: 20px;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    margin: 35px 20px;
+    margin: 10px 20px;
     display: block;
     
 }
