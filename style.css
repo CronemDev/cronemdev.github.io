@@ -9,6 +9,40 @@
 
 
 
+  .p-title{
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+
+  }
+  .singers{
+      display: flex;         /* coloca os elementos lado a lado */
+  gap: 50px;             /* espaço entre as imagens */
+  justify-content: center; /* centraliza as imagens na linha */
+  align-items: center;   /* alinha verticalmente */
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+  }
+
+  .sing img{
+    width: 130px;
+  border-radius: 100px;
+  }
+
+  .sing{
+    margin-top: 30px;
+  }
+  .sing p{
+    font-size: 17px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(203, 203, 203);
+    font-weight: 500;
+
+  }
+
+
 .navegation-menu{
   width: 250px;
   height: 200%;
@@ -57,6 +91,8 @@
 
 
 
+
+
 .more{
     color: #ffffffe1;
     font-size: 1rem;
@@ -70,6 +106,7 @@
     position: relative;
     transform: translate(-10%, 13%);
     border: 1px solid #ffffffa6;
+
     
 }
 .search-bar {
@@ -177,11 +214,13 @@ align-items: center;
 
 
 .textHits{
-    font-size: 20px;
+    font-size: 27px;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     margin: 35px 20px;
     display: block;
+    margin-left: 250px; /* empurra tudo para depois do menu */
+  padding: 20px;      /* opcional para dar respiro */
     
 
 
@@ -189,6 +228,7 @@ align-items: center;
 
 .textHits p{
     margin: 0 10 10px;
+    
 
 }
 
@@ -197,7 +237,6 @@ align-items: center;
     gap: 10px;
     flex-wrap: nowrap;
     overflow-x: auto;
-    margin-left: 250px;
     
 }
 
@@ -212,6 +251,7 @@ align-items: center;
   font-weight: 700;
   margin-top: 6px;  /* espaço após a imagem */
   margin-bottom: 2px; /* espaço pequeno antes do subtítulo */
+  
 }
 
 .subtitle {
@@ -379,14 +419,25 @@ align-items: center;
 /*For Mobile Phone/*/
 @media screen and (max-width: 768px) {
 
+
+
+  
+
   #messageDisplay{
     display: none;
   }
+
+  .textHits{
+    margin-left: 0px;
+  }
+
+
 
   .p-title{
     color: white;
     font-size: 18px;
     margin-top: 20px;
+
 
   }
   .singers{
@@ -394,6 +445,9 @@ align-items: center;
   gap: 10px;             /* espaço entre as imagens */
   justify-content: center; /* centraliza as imagens na linha */
   align-items: center;   /* alinha verticalmente */
+  overflow-x: auto;
+  overflow-y: hidden;
+  
   }
 
   .sing img{
@@ -438,6 +492,7 @@ display: none;
     gap: 7px;
     justify-content: end;
     color: #ffffffa6;
+    bottom: 0px;
 
 }
 
@@ -530,6 +585,7 @@ align-items: center;
     font-weight: 700;
     margin: 10px 20px;
     display: block;
+    margin-left: 0px;
     
 }
 
