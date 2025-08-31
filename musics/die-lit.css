@@ -6,6 +6,25 @@
     
 }
 
+<<<<<<< HEAD
+=======
+  .singer{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 160px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-left: -174px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 197, 197);
+  }
+
+  .singer img{
+    width: 10px;
+  }
+
+>>>>>>> 94badb7 (Primeiro commit)
 
 
 
@@ -70,8 +89,13 @@
   background:
     linear-gradient(
       to bottom,
+<<<<<<< HEAD
       rgba(0, 40, 60, 0.8) 0%,    /* azul petróleo escuro */
       rgba(0, 20, 30, 0.6) 50%,   /* mais escuro */
+=======
+      rgba(180, 180, 180, 0.8) 0%,    /* azul petróleo escuro */
+      rgba(104, 104, 104, 0.6) 50%,   /* mais escuro */
+>>>>>>> 94badb7 (Primeiro commit)
       rgba(0, 0, 0, 0.9) 100%     /* preto total */
     );
   background-color: #000; /* fallback */
@@ -124,6 +148,10 @@
   position: relative;   
   top: 20px;            
   margin: 0 auto;      
+<<<<<<< HEAD
+=======
+
+>>>>>>> 94badb7 (Primeiro commit)
 }
 
 
@@ -247,6 +275,7 @@ align-items: center;
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .title {
   color: white;
   font-size: 15px;
@@ -261,6 +290,9 @@ align-items: center;
   font-size: 13px;
   font-weight: 500;
 }
+=======
+
+>>>>>>> 94badb7 (Primeiro commit)
 
 .album{
     display: flex;
@@ -276,6 +308,7 @@ align-items: center;
 
 
 .title{
+<<<<<<< HEAD
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
@@ -283,6 +316,32 @@ align-items: center;
     font-weight: 800;
 }
 
+=======
+  color: white;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+
+.singer{
+  margin-left: -262px;
+  font-size: 16px;
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+
+.singer img{
+  width: 20px;
+  align-items: center;
+  border-radius: 100px;
+}
+>>>>>>> 94badb7 (Primeiro commit)
 .musics{
     color: white;
     margin-left: 320px;
@@ -305,6 +364,12 @@ align-items: center;
 @media screen and (max-width: 768px) {
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 94badb7 (Primeiro commit)
   #messageDisplay{
     display: none;
   }
@@ -315,6 +380,7 @@ align-items: center;
     margin-top: 20px;
   }
 
+<<<<<<< HEAD
   .singers{
     display: flex;
     gap: 10px;
@@ -323,6 +389,9 @@ align-items: center;
     overflow-x: auto;
     overflow-y: hidden;
   }
+=======
+
+>>>>>>> 94badb7 (Primeiro commit)
 
   .sing img{
     width: 100px;
@@ -347,6 +416,7 @@ align-items: center;
 
   body {
     margin: 0;
+<<<<<<< HEAD
     background:
       linear-gradient(
         to bottom,
@@ -354,6 +424,15 @@ align-items: center;
         rgba(0, 20, 30, 0.6) 50%,
         rgba(0, 0, 0, 0.9) 100%
       );
+=======
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(180, 180, 180, 0.8) 0%,    /* azul petróleo escuro */
+      rgba(104, 104, 104, 0.6) 50%,   /* mais escuro */
+      rgba(0, 0, 0, 0.9) 100%     /* preto total */
+    );
+>>>>>>> 94badb7 (Primeiro commit)
     background-color: #000;
     background-repeat: no-repeat;
     background-size: 100% 250px;
@@ -469,6 +548,7 @@ align-items: center;
     width: 145px;
   }
 
+<<<<<<< HEAD
   .title {
     color: white;
     font-size: 15px;
@@ -476,12 +556,16 @@ align-items: center;
     margin-top: 6px;
     margin-bottom: 2px;
   }
+=======
+
+>>>>>>> 94badb7 (Primeiro commit)
 
   .subtitle {
     color: gray;
     font-size: 13px;
   }
 
+<<<<<<< HEAD
   /* Mobile: centralizado com Flex, sem position absolute */
   .album {
     display: flex;
@@ -497,3 +581,96 @@ align-items: center;
 @media screen and (max-width: 480px) {
   /* CSS para celulares pequenos */
 }
+=======
+
+
+
+  .album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  
+
+  }
+
+  .image img{
+    width: 55%;
+    border-radius: 5px;
+  }
+
+
+
+.title {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0; 
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 100%; 
+    margin-left: 3%;
+    margin-top: 15px;
+}
+
+  .singer{
+    color: rgb(197, 197, 197);
+    font-weight: 335;
+    margin: 0; 
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 100%; 
+    margin-left: 3%;
+    margin-top: 15px;
+
+  }
+
+
+        .musics {
+            color: rgb(197, 197, 197);
+            font-weight: 335;
+            margin: 0; 
+            display: flex;
+            justify-content: flex-start;
+            align-self: flex-start;
+            width: 100%; 
+            margin-left: 0.5%;
+            margin-top: 15px;
+            flex-direction: column;
+            gap: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .hit {
+            padding: 12px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            width: auto; 
+            height: auto; 
+        }
+        
+        .hit:hover {
+            background-color: rgba(128, 128, 128, 0.5);
+            color: white;
+            transform: translateX(10px);
+
+        }
+        
+
+
+
+
+}
+
+
+>>>>>>> 94badb7 (Primeiro commit)
